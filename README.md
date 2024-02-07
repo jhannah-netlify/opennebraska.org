@@ -6,4 +6,4 @@ Primary repo is Open/Nebraska GitHub for collaboration, but is published to the 
 
 Because Netlify permissions haven't been sorted organizationally.
 
-Jay Hannah (@jhannah) owns the domain opennebraska.org until Open/Nebraska is financially organized to start pay annual domain fees.
+Jay Hannah (@jhannah) owns the domain opennebraska.org until Open/Nebraska is financially organized to start paying annual domain fees.
