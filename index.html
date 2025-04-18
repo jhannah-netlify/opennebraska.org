@@ -1,94 +1,74 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Open Nebraska</title>
-<style type="text/css">
-	img.wp-smiley,
-	img.emoji {
-		display: inline !important;
-		border: none !important;
-		box-shadow: none !important;
-		height: 1em !important;
-		width: 1em !important;
-		margin: 0 .07em !important;
-		vertical-align: -0.1em !important;
-		background: none !important;
-		padding: 0 !important;
-	}
-	.site-header, .site-content, .site-footer {
-		width: 96%;
-	}
-	.site-title,
-	.site-description {
-		position: absolute;
-		clip: rect(1px, 1px, 1px, 1px);
-	}
-	body.custom-background { 
-		background-image: url('img/i801.jpg');
-		background-repeat: repeat;
-		background-position: top center;
-		background-attachment: fixed;
-	}
-</style>
-<link rel="stylesheet" id="padhang-style-css" href="css/style.css" type="text/css" media="all">
-</head>
-
-<body>
- 
-<div id="page" class="hfeed site">
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<h1 class="site-title"><a href="http://opennebraska.org/" rel="home">Open Nebraska</a></h1>
-			<h2 class="site-description"></h2>
-		</div>
-	</header><!-- #masthead -->
-
-	<div id="content" class="site-content">
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
-				
-<article id="post-30" class="post-30 page type-page status-publish hentry">
-
-	<div class="entry-content">
-		<p style="color: #404040;"><strong style="font-style: inherit;">Open/Nebraska&nbsp;</strong>is a civic innovation organization
-			serving the citizens of the great state of Nebraska. Founded in 2012, our mission is to solve community problems through
-			civic application development, open data advocacy, and tech education. We aim to drive innovation and
-			community engagement in Nebraska by making local information more accessible to the public.
-		</p>
-		<ul>
-			<li><a href="https://github.com/codeforamerica/codeofconduct">Code of Conduct</a>.</li>
-			<li>Chat with us in <a href="https://join.slack.com/t/opennebraska/shared_invite/zt-miabnojm-_699FyQnaaA9AS0PJcj24g">Slack</a>.</li>
-			<li>36 repositories, issue tracking in <a href="https://github.com/opennebraska">GitHub</a>.</li>
-		</ul>
-	</div><!-- .entry-content -->
-	</article><!-- #post-## -->
-
-				
-			
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		
-		<div class="site-info">
-			<div class="copyright">
-				<p>2012-2024 in <a href="https://github.com/codefornebraska">GitHub</a>.</p>
-			</div>
-		</div><!-- .site-info -->
-
-	</footer><!-- #colophon -->
-</div><!-- #page -->
-
-
-<div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 940px; width: 1942px; z-index: -999999; position: fixed;">
-	<img style="position: absolute; margin: 0px; padding: 0px; border: none; width: 1942px; height: 1372.63px; max-height: none; max-width: none; z-index: -999999; left: 0px; top: -216.317px;" src="img/i801.jpg">
-</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Nebraska</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Open Nebraska is a civic innovation organization solving community problems through civic application development, open data advocacy, and tech education." />
+    <meta name="keywords" content="Open Nebraska, civic innovation, open data, tech education, Nebraska, community engagement" />
+    <meta name="author" content="Open Nebraska" />
+    <meta property="og:title" content="Open Nebraska" />
+    <meta
+      property="og:description"
+      content="Open Nebraska is a civic innovation organization solving community problems through civic application development, open data advocacy, and tech education." />
+    <meta property="og:image" content="https://opennebraska.org/img/openne.svg" />
+    <meta property="og:url" content="https://opennebraska.org/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Open Nebraska" />
+    <meta
+      name="twitter:description"
+      content="Open Nebraska is a civic innovation organization solving community problems through civic application development, open data advocacy, and tech education." />
+    <meta name="twitter:image" content="https://opennebraska.org/img/openne.svg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Open Nebraska",
+        "url": "https://opennebraska.org/",
+        "logo": "https://opennebraska.org/img/openne.svg",
+        "description": "Open Nebraska is a civic innovation organization solving community problems through civic application development, open data advocacy, and tech education.",
+        "sameAs": ["https://github.com/opennebraska", "https://join.slack.com/t/opennebraska"]
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="flex flex-col my-8 items-center justify-center gap-8 bg-cover bg-center bg-no-repeat min-h-screen" style="background-image: url('img/bg.jpg')">
+    <a href="http://opennebraska.org/">
+      <img src="img/logo-svg.svg" alt="Open Nebraska Logo" class="h-12 md:h-20" />
+    </a>
+    <div class="bg-white/50 backdrop-blur-lg p-10 md:p-16 rounded-3xl shadow-lg max-w-3xl mx-4 md:mx-12">
+      <div class="text-base md:text-lg leading-relaxed text-gray-800">
+        <p class="mb-4">
+          <strong>Open/Nebraska</strong>
+          is a civic innovation organization serving the citizens of the great state of Nebraska. Founded in 2012, our mission is to solve community problems through civic
+          application development, open data advocacy, and tech education. We aim to drive innovation and community engagement in Nebraska by making local information more
+          accessible to the public.
+        </p>
+        <ul class="list-disc list-inside space-y-2">
+          <li>
+            <a target="_blank" href="https://github.com/codeforamerica/codeofconduct" class="text-blue-600 hover:underline">Code of Conduct</a>
+          </li>
+          <li>
+            Chat with us in
+            <a target="_blank" href="https://join.slack.com/t/opennebraska/shared_invite/zt-miabnojm-_699FyQnaaA9AS0PJcj24g" class="text-blue-600 hover:underline">Slack</a>
+          </li>
+          <li>
+            36 repositories, issue tracking in
+            <a target="_blank" href="https://github.com/opennebraska" class="text-blue-600 hover:underline">GitHub</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer class="text-base bg-white/50 backdrop-blur-lg rounded-full shadow-lg px-4 py-2 text-gray-800">
+      <script>
+        document.write(`2012-${new Date().getFullYear()} in`);
+      </script>
+      <a target="_blank" href="https://github.com/opennebraska" class="text-blue-600 hover:underline">GitHub</a>
+    </footer>
+    <img src="img/logo.png" alt="Logo" class="fixed bottom-6 right-6 w-10 h-10 md:h-16 md:w-16" />
+  </body>
 </html>
